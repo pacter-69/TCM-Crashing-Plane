@@ -6,7 +6,7 @@ public class AddImpulse2D : MonoBehaviour
     [Tooltip("Direction of the applied impulse. Will be normalized.")]
     public Vector2 _direction = Vector2.up;
     [Tooltip("Magnitude of the impulse.")]
-    public float _impulse = 10f;
+    public int _impulse = 10;
 
     private Rigidbody2D _rigidbody2D;
 
